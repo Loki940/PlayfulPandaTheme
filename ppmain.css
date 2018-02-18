@@ -1,1 +1,6 @@
 /* PlayfulPandaTheme for BetterDiscord. Created by https://github.com/kirayoru/TrueWhiteTheme */
+.messages.scroller{
+  background-image: url(https://raw.githubusercontent.com/kirayoru/PlayfulPandaTheme/master/img/Anime-Panda-Desktop-Wallpaper-07550.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
