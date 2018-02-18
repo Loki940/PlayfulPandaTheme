@@ -9,3 +9,35 @@
   background-size: auto;
   background-repeat: no-repeat;
 }
+.guilds-wrapper {
+	background-color: #131313
+}
+.container-2OU7Cz {
+	background-color: #131313
+}
+.container-RYiLUQ {
+	background-color: #000000;
+}
+.container-iksrDt {
+	background: rgb(0, 0, 0);
+}
+.theme-dark .title-qAcLxz {
+	background: #131313
+}
+.theme-dark .chat form {
+	background-color: #131313
+}
+.theme-dark .chat>.content {
+	background-color: #131313
+}
+.theme-dark .channel-members {
+	background-color: #131313
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+	background-color: #131313
+	border-color: #131313
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+	background-color: #000000
+	border-color: #131313
+}
