@@ -51,6 +51,9 @@
 .theme-dark .typing-3eiiL_ {
   background-color: #131313;
 }
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: rgba(0, 0, 0, 0);
+}
 
 /* FRIENDS SECTION */
 
