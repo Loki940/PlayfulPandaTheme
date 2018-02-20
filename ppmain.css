@@ -3,14 +3,12 @@
 /* OVERALL UI */
 
 .messages.scroller{
-  background-image: url(https://raw.githubusercontent.com/kirayoru/PlayfulPandaTheme/master/img/Anime-Panda-Desktop-Wallpaper-07550.jpg);
+  background-image: url(https://raw.githubusercontent.com/kirayoru/PlayfulPandaTheme/exp/img/pandawallpaperedited.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .appMount-14L89u {
-  background-image: url(https://raw.githubusercontent.com/kirayoru/PlayfulPandaTheme/master/img/Anime-Panda-Desktop-Wallpaper-07550.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
+  background-color: #000000;
 }
 .guilds-wrapper {
 	background-color: #131313
@@ -50,6 +48,17 @@
 }
 .theme-dark .typing-3eiiL_ {
   background-color: #131313;
+}
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: hsla(0, 0%, 100%, 0);
+}
+
+.chat .new-messages-bar button {
+  background-color: #000000;
 }
 
 /* FRIENDS SECTION */
