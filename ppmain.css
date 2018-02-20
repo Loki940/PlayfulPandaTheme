@@ -55,6 +55,10 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: hsla(0, 0%, 100%, 0);
+}
+
 /* FRIENDS SECTION */
 
 .channels-3g2vYe {
