@@ -52,4 +52,3 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 [ca7fc72]: https://github.com/kirayoru/PlayfulPandaTheme/commit/ca7fc72938720169d87a90ebd38e1587b255fe94
 
 [Unreleased]: https://github.com/kirayoru/PlayfulPandaTheme/compare/master...exp
-[1.0]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.3.0...v1.0.0
