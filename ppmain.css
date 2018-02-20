@@ -60,6 +60,10 @@
     border-bottom-color: hsla(0, 0%, 100%, 0);
 }
 
+.chat .new-messages-bar button {
+  background-color: #000000;
+}
+
 /* FRIENDS SECTION */
 
 .channels-3g2vYe {
