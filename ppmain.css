@@ -70,3 +70,24 @@
 .channels-3g2vYe {
   background-color: #000000;
 }
+
+.theme-dark .headerBar-cxbhPD {
+  background: #000000;
+}
+
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: #131313;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: rgb(82, 56, 233);
+    color: #fff;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.selected {
+    color: #000000;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    color: #000000;
+}
