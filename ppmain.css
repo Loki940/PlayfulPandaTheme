@@ -65,6 +65,12 @@
     color: rgba(255, 255, 255, 0.74);
 }
 
+.badge {
+    background-color: rgba(82, 56, 233, 1);
+    border-radius: 10px;
+    font-size: 13px;
+}
+
 /* FRIENDS SECTION */
 
 .channels-3g2vYe {
