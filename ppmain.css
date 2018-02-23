@@ -105,3 +105,7 @@ Violet Blue RGB 82,56,233
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
     color: #000000;
 }
+
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: rgba(255, 255, 255, 0.15);
+}
