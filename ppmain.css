@@ -114,3 +114,24 @@ element.style {
     border-radius: 20px;
     background-color: rgba(82, 56, 233, 1);
 }
+
+/*
+    CALLS
+*/
+
+.video-3lOWa6 {
+    background-color: #000000;
+}
+
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+    background-color: #131313;
+    border-color: #131313;
+}
+
+.private-channel-call .icons-wrapper {
+    border-radius: 10px;
+}
+
+.lookFilled-luDKDo.colorRed-3HTNPV {
+    background-color: rgb(255, 0, 74);
+}
