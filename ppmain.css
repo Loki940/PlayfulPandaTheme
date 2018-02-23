@@ -6,6 +6,7 @@ White #ffffff
 Dark Grey #131313
 Violet Blue RGB 82,56,233
 Red Pink RGB 255,0,74
+Light Green Blue #00ffaf
 
 */
 
@@ -139,4 +140,48 @@ element.style {
 
 .lookFilled-luDKDo.colorRed-3HTNPV {
     background-color: rgb(255, 0, 74);
+}
+
+/*
+    USER SETTINGS
+*/
+
+.theme-dark .header-1-f9X5 {
+    color: #ffffff;
+}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: #131313;
+}
+
+.side-2nYO0F .itemSelected-3XxAMf {
+    background-color: rgba(82, 56, 233, 1);
+}
+
+.side-2nYO0F .item-3879bf {
+    border-radius: 7px;
+}
+
+.lookFilled-luDKDo.colorBrand-3PmwCE {
+    background-color: rgba(82, 56, 233, 1);
+}
+
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+    background-color: rgba(255, 0, 74, 1);
+}
+
+itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
+    color: rgb(255, 0, 74);
+}
+
+.userSettingsSecurity-1hjwAn .isEnabled-3JekTu {
+    color: #00ffaf;
+}
+
+.lookOutlined-1c5nhl.colorRed-3HTNPV {
+    color: rgba(255, 0, 74, 1);
+}
+
+.lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
+    border-color: rgba(255, 0, 74, 0.6);
 }
