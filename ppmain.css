@@ -83,6 +83,10 @@ Light Green Blue #00ffaf
     font-size: 13px;
 }
 
+.guilds-wrapper .guilds .guild.audio .guild-inner:after, .guilds-wrapper .guilds .guild.video .guild-inner:after {
+    background-color: rgba(82, 56, 233, 1);
+}
+
 /*
     FRIENDS SECTION
 */
