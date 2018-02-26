@@ -196,3 +196,28 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 .lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
     border-color: rgba(255, 0, 74, 0.6);
 }
+
+/*
+    USER PROFILES
+*/
+
+.userPopout-11hFKo {
+    border-radius: 20px;
+}
+
+.bodyTitle-18hsd9 {
+    color: #ffffff;
+}
+
+.theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
+    background-color: #000000;
+    color: hsl(0, 0%, 100%);
+}
+
+.theme-dark .footer-2wFs91 {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.headerSpotify-26yUf5 {
+    background: rgb(69, 214, 34);
+}
