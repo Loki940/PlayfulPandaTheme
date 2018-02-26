@@ -7,6 +7,7 @@ Dark Grey #131313
 Violet Blue RGB 82,56,233
 Red Pink RGB 255,0,74
 Light Green Blue #00ffaf
+Spotify Color RGB 69, 214, 34
 
 */
 
@@ -256,4 +257,12 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 
 .headerPlaying-2Q7mBy {
     background: rgb(255, 0, 74);
+}
+
+.activity-3NviKQ {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.topSectionSpotify-3744IX {
+    background: rgb(69, 214, 34);;
 }
