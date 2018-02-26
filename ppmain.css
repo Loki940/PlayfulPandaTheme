@@ -87,6 +87,10 @@ Light Green Blue #00ffaf
     background-color: rgba(82, 56, 233, 1);
 }
 
+.guild-inner :link {
+    background-color: rgba(41, 41, 41);
+}
+
 .menu-3BZuDT {
     border-radius: 20px;
 }
