@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## v1.3 - 2018-02-26
 
 ### Added
-- Complete new design for whole friend list [acef4c3], [635986a], [62266c8], [5393754], [380d36c], [f71ee6d], [79adb05], []
+- Complete new design for whole friend list [acef4c3], [635986a], [62266c8], [5393754], [380d36c], [f71ee6d], [79adb05]
 - New design for user & server settings [d052a84], [dbd0585],
 - New design of status change panel [3abcaf3]
 - New design of user profiles with Spotify Integration design [a4f0596], [82c5aa3]
