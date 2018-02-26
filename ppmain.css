@@ -153,6 +153,10 @@ Light Green Blue #00ffaf
     USER SETTINGS
 */
 
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: #131313;
+}
+
 .theme-dark .header-1-f9X5 {
     color: #ffffff;
 }
