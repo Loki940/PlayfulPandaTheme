@@ -144,6 +144,10 @@ Light Green Blue #00ffaf
     background: linear-gradient(-180deg,rgba(82, 56, 233, 0.3),rgba(255, 0, 74, 0.3));
 }
 
+#friends .friends-table {
+    margin-top: 0px;
+}
+
 /*
     CALLS
 */
