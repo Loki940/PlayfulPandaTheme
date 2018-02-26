@@ -103,6 +103,10 @@ Light Green Blue #00ffaf
     color: rgba(0, 0, 0, 0.8);
 }
 
+.guilds-wrapper .guilds .guild.unread:before {
+    background: #ffffff;
+}
+
 /*
     FRIENDS SECTION
 */
