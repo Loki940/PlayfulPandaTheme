@@ -113,6 +113,10 @@ Spotify Color RGB 69, 214, 34
     border-radius: 20px;
 }
 
+.inner-ptMwR- .rtc-connection-status-connected {
+    color: #00ffaf;
+}
+
 /*
     FRIENDS SECTION
 */
