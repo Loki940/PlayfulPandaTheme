@@ -279,7 +279,7 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 }
 
 .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
-    background-color: #000000;
+    background: linear-gradient(-180deg,#131313,#000000);
     color: hsl(0, 0%, 100%);
 }
 
