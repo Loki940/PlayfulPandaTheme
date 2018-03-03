@@ -6,6 +6,7 @@ White #ffffff
 Dark Grey #131313
 Violet Blue RGB 82,56,233
 Red Pink RGB 255,0,74
+Red Pink (more dark) RGB 187, 0, 54
 Light Green Blue #00ffaf
 Spotify Color RGB 69, 214, 34
 
@@ -191,6 +192,10 @@ Spotify Color RGB 69, 214, 34
 
 .lookFilled-luDKDo.colorRed-3HTNPV {
     background-color: rgb(255, 0, 74);
+}
+
+.lookFilled-luDKDo.colorRed-3HTNPV:hover {
+    background-color: rgb(187, 0, 54);
 }
 
 /*
