@@ -117,6 +117,12 @@ Spotify Color RGB 69, 214, 34
     color: #00ffaf;
 }
 
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+    background: linear-gradient(90deg,#000000 70%,#131313);
+    border: 2px solid linear-gradient(90deg,#000000 70%,#131313);;
+    border-radius: 20px;
+}
+
 /*
     FRIENDS SECTION
 */
