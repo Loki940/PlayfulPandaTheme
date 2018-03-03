@@ -7,6 +7,7 @@ Dark Grey #131313
 Violet Blue RGB 82,56,233
 Red Pink RGB 255,0,74
 Light Green Blue #00ffaf
+Spotify Color RGB 69, 214, 34
 
 */
 
@@ -107,6 +108,15 @@ Light Green Blue #00ffaf
     background: #ffffff;
 }
 
+.wrapper-2xO9RX {
+    background-color: rgb(255, 0, 74);
+    border-radius: 20px;
+}
+
+.inner-ptMwR- .rtc-connection-status-connected {
+    color: #00ffaf;
+}
+
 /*
     FRIENDS SECTION
 */
@@ -181,6 +191,14 @@ Light Green Blue #00ffaf
     SETTINGS
 */
 
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
+    background-color: #00ffaf;
+}
+
+.lookFilled-luDKDo.colorGreen-22At8E {
+    background-color: rgb(69, 214, 34);
+}
+
 .theme-dark .ui-standard-sidebar-view .content-region {
     background: #131313;
 }
@@ -225,6 +243,23 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
     border-color: rgba(255, 0, 74, 0.6);
 }
 
+.theme-dark .questionMark-1R8WLs {
+    background-color: #000000;
+}
+
+.item-2zi_5J.marginBottom8-1mABJ4.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.cardPrimaryEditable-2IQ7-V.card-3DrRmC{
+  background-color: rgba(0, 0, 0, 1);
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.themeDefault-3M0dJU.valueChecked-3Bzkbm {
+    background-color: rgb(255, 0, 74);
+}
+
+.barFill-18ABna {
+    background: rgb(82, 56, 233);
+}
+
 /*
     USER PROFILES
 */
@@ -251,5 +286,17 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 }
 
 .headerPlaying-2Q7mBy {
+    background: rgb(255, 0, 74);
+}
+
+.activity-3NviKQ {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.topSectionSpotify-3744IX {
+    background: rgb(69, 214, 34);;
+}
+
+.topSectionPlaying-3jAH9b {
     background: rgb(255, 0, 74);
 }
