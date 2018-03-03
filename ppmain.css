@@ -6,6 +6,7 @@ White #ffffff
 Dark Grey #131313
 Violet Blue RGB 82,56,233
 Red Pink RGB 255,0,74
+Red Pink (more dark) RGB 187, 0, 54
 Light Green Blue #00ffaf
 Spotify Color RGB 69, 214, 34
 
@@ -20,48 +21,62 @@ Spotify Color RGB 69, 214, 34
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .appMount-14L89u {
   background-color: #000000;
 }
+
 .guilds-wrapper {
 	background-color: #131313
 }
+
 .container-2OU7Cz {
 	background-color: #131313
 }
+
 .container-RYiLUQ {
 	background-color: #000000;
 }
+
 .container-iksrDt {
 	background: rgb(0, 0, 0);
 }
+
 .theme-dark .title-qAcLxz {
 	background: #131313
 }
+
 .theme-dark .chat form {
 	background-color: #131313
 }
+
 .theme-dark .chat>.content {
 	background-color: #131313
 }
+
 .theme-dark .channel-members {
 	background-color: #131313
 }
+
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
 	background-color: #131313;
 	border-color: #131313;
 }
+
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
 	background-color: #000000;
 	border-color: #131313;
 }
+
 .container-3lnMWU {
   background: rgb(0, 0, 0);
   border-bottom: 0px solid;
 }
+
 .theme-dark .typing-3eiiL_ {
   background-color: #131313;
 }
+
 .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
     background-color: rgba(0, 0, 0, 0);
 }
@@ -79,7 +94,7 @@ Spotify Color RGB 69, 214, 34
 }
 
 .badge {
-    background-color: rgba(82, 56, 233, 1);
+    background-color: rgba(255, 0, 74, 1);
     border-radius: 10px;
     font-size: 13px;
 }
@@ -116,6 +131,35 @@ Spotify Color RGB 69, 214, 34
 .inner-ptMwR- .rtc-connection-status-connected {
     color: #00ffaf;
 }
+
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+    background: linear-gradient(90deg,#000000 70%,#131313);
+    border: 2px solid linear-gradient(90deg,#000000 70%,#131313);
+    border-radius: 20px;
+}
+
+.contentSelectedText-3j5CXt {
+    background-color: rgba(67, 72, 80, 0.6);
+}
+
+.content-2mSKOj {
+    border-radius: 8px;
+}
+
+.innerNoAutocomplete-kaUXJZ {
+    border-radius: 10px;
+}
+
+.theme-dark .inner-3if5cm {
+    background: #000000;
+}
+
+/* UNFINISHED
+.emojiPicker-3g68GS {
+    background-color: #131313;
+}
+
+*/
 
 /*
     FRIENDS SECTION
@@ -185,6 +229,10 @@ Spotify Color RGB 69, 214, 34
 
 .lookFilled-luDKDo.colorRed-3HTNPV {
     background-color: rgb(255, 0, 74);
+}
+
+.lookFilled-luDKDo.colorRed-3HTNPV:hover {
+    background-color: rgb(187, 0, 54);
 }
 
 /*
@@ -273,7 +321,7 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 }
 
 .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
-    background-color: #000000;
+    background: linear-gradient(-180deg,#131313,#000000);
     color: hsl(0, 0%, 100%);
 }
 
@@ -299,4 +347,16 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 
 .topSectionPlaying-3jAH9b {
     background: rgb(255, 0, 74);
+}
+
+.headerFill-TTyrtz {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.theme-dark .body-3_tdh6 {
+    background: linear-gradient(-180deg,#131313,#000000);
+}
+
+.root-2sNHUF {
+    border-radius: 35px;
 }
