@@ -150,6 +150,10 @@ Spotify Color RGB 69, 214, 34
     border-radius: 10px;
 }
 
+.theme-dark .inner-3if5cm {
+    background: #000000;
+}
+
 /* UNFINISHED
 .emojiPicker-3g68GS {
     background-color: #131313;
