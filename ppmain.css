@@ -308,6 +308,27 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
     background: rgb(82, 56, 233);
 }
 
+.cardPrimaryEditable-2IQ7-V[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+         background: rgb(255, 0, 74) !important;
+         border-color: rgb(255, 0, 74) !important;
+}
+
+.checked-2TahvT[style="border-color: rgb(114, 137, 218);"] ,
+.theme-dark .checkbox-1QwaS4[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] {
+          border: 0px solid #ffffff !important;
+          background: rgb(255, 0, 74) !important;
+}
+
+.theme-dark .checkbox-1QwaS4 {
+    border-color: rgb(255, 0 ,74);
+}
+
+.checked-2TahvT[style="border-color: rgb(114, 137, 218);"] polyline[stroke],
+.theme-dark .checkbox-1QwaS4[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] polyline[stroke] {
+    stroke: #ffffff;
+    stroke-width: 2;
+}
+
 /*
     USER PROFILES
 */
