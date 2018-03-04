@@ -315,9 +315,10 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
     background-color: #000000;
 }
 
-.item-2zi_5J.marginBottom8-1mABJ4.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.cardPrimaryEditable-2IQ7-V.card-3DrRmC{
+.item-2zi_5J.marginBottom8-1mABJ4.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.cardPrimaryEditable-2IQ7-V{
   background-color: rgba(0, 0, 0, 1);
   border-color: rgba(0, 0, 0, 1);
+  border-radius: 10px !important;
 }
 
 .themeDefault-3M0dJU.valueChecked-3Bzkbm {
@@ -331,6 +332,7 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 .cardPrimaryEditable-2IQ7-V[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
          background: rgb(255, 0, 74) !important;
          border-color: rgb(255, 0, 74) !important;
+		     border-radius: 10px !important;
 }
 
 .checked-2TahvT[style="border-color: rgb(114, 137, 218);"] ,
