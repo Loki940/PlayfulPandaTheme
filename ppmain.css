@@ -115,6 +115,12 @@ Spotify Color RGB 69, 214, 34
     color: #000000;
 }
 
+.menu-3BZuDT .item-rK1j5B:hover {
+	  border-radius: 20px;
+    background: linear-gradient(90deg,rgb(241, 241, 241) 70%,#ffffff);
+    color: #000000;
+}
+
 .alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
     color: rgba(0, 0, 0, 0.8);
 }
@@ -152,6 +158,28 @@ Spotify Color RGB 69, 214, 34
 
 .theme-dark .inner-3if5cm {
     background: #000000;
+}
+
+.theme-dark .h5-3KssQU {
+    color: #ffffff;
+}
+
+.theme-dark .modal-3HOjGZ {
+    background-color: #131313;
+}
+
+.theme-dark .footer-1PYmcw {
+    background-color: #131313;
+}
+
+.theme-dark .input-2YozMi {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.unread-2TDDFN {
+    background-color: rgb(255, 0, 74);
 }
 
 /* UNFINISHED
@@ -295,9 +323,10 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
     background-color: #000000;
 }
 
-.item-2zi_5J.marginBottom8-1mABJ4.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.cardPrimaryEditable-2IQ7-V.card-3DrRmC{
+.item-2zi_5J.marginBottom8-1mABJ4.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.cardPrimaryEditable-2IQ7-V{
   background-color: rgba(0, 0, 0, 1);
   border-color: rgba(0, 0, 0, 1);
+  border-radius: 10px !important;
 }
 
 .themeDefault-3M0dJU.valueChecked-3Bzkbm {
@@ -306,6 +335,28 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 
 .barFill-18ABna {
     background: rgb(82, 56, 233);
+}
+
+.cardPrimaryEditable-2IQ7-V[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+         background: rgb(255, 0, 74) !important;
+         border-color: rgb(255, 0, 74) !important;
+		     border-radius: 10px !important;
+}
+
+.checked-2TahvT[style="border-color: rgb(114, 137, 218);"] ,
+.theme-dark .checkbox-1QwaS4[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] {
+          border: 0px solid #ffffff !important;
+          background: rgb(255, 0, 74) !important;
+}
+
+.theme-dark .checkbox-1QwaS4 {
+    border-color: rgb(255, 0 ,74);
+}
+
+.checked-2TahvT[style="border-color: rgb(114, 137, 218);"] polyline[stroke],
+.theme-dark .checkbox-1QwaS4[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] polyline[stroke] {
+    stroke: #ffffff;
+    stroke-width: 2;
 }
 
 /*
@@ -359,4 +410,19 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 
 .root-2sNHUF {
     border-radius: 35px;
+}
+
+/*
+    BETTERDISCORD SETTINGS
+*/
+
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+    color: #fff;
+    background-color: rgb(82, 56, 233);
+    border: 2px solid rgb(82, 56, 233);
+    border-radius: 7px;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background: rgb(255, 0, 74);
 }
