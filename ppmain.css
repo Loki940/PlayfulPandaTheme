@@ -115,6 +115,12 @@ Spotify Color RGB 69, 214, 34
     color: #000000;
 }
 
+.menu-3BZuDT .item-rK1j5B:hover {
+	  border-radius: 20px;
+    background: linear-gradient(90deg,rgb(241, 241, 241) 70%,#ffffff);
+    color: #000000;
+}
+
 .alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
     color: rgba(0, 0, 0, 0.8);
 }
