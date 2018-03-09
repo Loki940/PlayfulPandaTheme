@@ -267,6 +267,10 @@ Spotify Color RGB 69, 214, 34
     margin-top: 0px;
 }
 
+.private-channels .channel a {
+    border-radius: 10px;
+}
+
 /*
     CALLS
 */
