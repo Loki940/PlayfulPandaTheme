@@ -184,6 +184,10 @@ Spotify Color RGB 69, 214, 34
     background-color: rgb(255, 0, 74);
 }
 
+.itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa[style*="color: rgb(240, 71, 71);"] {
+  color: rgb(255, 0, 74) !important;
+}
+
 .uploadModal-2KN6Mm {
     background-color: #6a22ff;
     border-radius: 20px;
