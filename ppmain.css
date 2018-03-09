@@ -228,6 +228,22 @@ Spotify Color RGB 69, 214, 34
     border-radius: 15px;
 }
 
+.status-dnd {
+    background-color: rgb(255, 0, 74);
+}
+
+.status-invisible, .status-offline {
+    background-color: #ffffff;
+}
+
+.status-idle {
+    background-color: #ffb900;
+}
+
+.status-online {
+    background-color: #00ffaf;
+}
+
 /* UNFINISHED
 .emojiPicker-3g68GS {
     background-color: #131313;
