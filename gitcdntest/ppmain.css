@@ -1,4 +1,5 @@
 /* PlayfulPandaTheme for BetterDiscord. Created by https://github.com/kirayoru/PlayfulPandaTheme */
+/* Commit Test @ exp branch @ March 9th 22:40h
 /* Colors:
 
 Black #000000
@@ -19,7 +20,7 @@ Spotify Color RGB 69, 214, 34
 */
 
 .messages.scroller{
-  background-image: url(https://raw.githubusercontent.com/kirayoru/PlayfulPandaTheme/exp/img/panda2.jpg);
+  background-image: url(https://raw.githubusercontent.com/kirayoru/PlayfulPandaTheme/exp/img/pandawallpaperedited.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -184,118 +185,12 @@ Spotify Color RGB 69, 214, 34
     background-color: rgb(255, 0, 74);
 }
 
-.itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa[style*="color: rgb(240, 71, 71);"] {
-  color: rgb(255, 0, 74) !important;
-}
-
-.uploadModal-2KN6Mm {
-    background-color: #6a22ff;
-    border-radius: 20px;
-}
-
-.uploadModal-2KN6Mm .footer-4pOKm8 {
-    background-color: #ffffff;
-}
-
-.uploadModal-2KN6Mm .footer-4pOKm8 .button {
-    background-color: #131313;
-}
-
-.regionSelectModal-QBpi1R .regionSelectModalHeader-33y0EU {
-    color: rgba(82, 56, 233, 1);
-}
-
-.regionSelectModal-QBpi1R .regionSelectModalOption-3giLPN {
-    background-color: #000;
-    border: 0px solid #f3f3f3;
-    border-radius: 20px;
-}
-
-.theme-dark .quickswitcher-2NdiGJ {
-    background-color: #000000;
-}
-
-.quickswitcher-2NdiGJ {
-    border-radius: 20px;
-    box-shadow: 0px rgb(0,0,0);
-}
-
-.theme-dark .input-MwQhcX {
-    background-color: #131313;
-}
-
-.input-MwQhcX {
-    border-radius: 15px;
-}
-
-.status-dnd {
-    background-color: rgb(255, 0, 74);
-}
-
-.status-invisible, .status-offline {
-    background-color: #ffffff;
-}
-
-.status-idle {
-    background-color: #ffb900;
-}
-
-.status-online {
-    background-color: #00ffaf;
-}
-
-.theme-dark .autocomplete-1TnWNR {
-    background-color: #000000;
-}
-
-.autocomplete-1TnWNR {
-    border-radius: 15px 15px 0 0;
-}
-
-.theme-dark .selectorSelected-2M0IGv {
-    background-color: #131313;
-}
-
-/*
-    EMOJI PICKER
-*/
-
+/* UNFINISHED
 .emojiPicker-3g68GS {
     background-color: #131313;
-    border: 1px solid rgba(82, 56, 233, 0.7);
 }
 
-#bda-qem {
-    background: #000000;
-    color: #ffffff;
-}
-
-.search-bar.search-bar-light {
-    background-color: #131313;
-}
-
-.search-bar.search-bar-light .search-bar-inner {
-    border-radius: 10px!important;
-}
-
-.emojiPicker-3g68GS .stickyHeader-3LjM5X {
-    background: hsla(0, 0%, 0%, 0.95);
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.emojiPicker-3g68GS .category-3rCtoh {
-    color: rgb(255, 0, 74);
-}
-
-.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
-    border-bottom-color: rgb(82, 56, 233);
-}
-
-.scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb {
-    background-color: #3000ff;
-    border-color: transparent;
-}
+*/
 
 /*
     FRIENDS SECTION
@@ -344,10 +239,6 @@ Spotify Color RGB 69, 214, 34
 
 #friends .friends-table {
     margin-top: 0px;
-}
-
-.private-channels .channel a {
-    border-radius: 10px;
 }
 
 /*
@@ -469,34 +360,6 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 .theme-dark .checkbox-1QwaS4[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] polyline[stroke] {
     stroke: #ffffff;
     stroke-width: 2;
-}
-
-/*
-    PERMISSION SETTINGS
-*/
-
-.theme-dark .denySelected-h37B9e {
-    border-color: rgb(255, 0, 74);
-}
-
-.denySelected-h37B9e {
-    background: rgb(255, 0, 74);
-}
-
-.theme-dark .item-3H-QZD {
-    border-color: #000000;
-}
-
-.theme-dark .passthroughSelected-3_g4oB {
-    background: #000000;
-}
-
-.theme-dark .allowSelected-1FAg8y {
-    background: rgb(69, 214, 34);
-}
-
-.allowSelected-1FAg8y {
-    background: rgb(69, 214, 34);
 }
 
 /*
