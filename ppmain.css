@@ -410,6 +410,34 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 }
 
 /*
+    PERMISSION SETTINGS
+*/
+
+.theme-dark .denySelected-h37B9e {
+    border-color: rgb(255, 0, 74);
+}
+
+.denySelected-h37B9e {
+    background: rgb(255, 0, 74);
+}
+
+.theme-dark .item-3H-QZD {
+    border-color: #000000;
+}
+
+.theme-dark .passthroughSelected-3_g4oB {
+    background: #000000;
+}
+
+.theme-dark .allowSelected-1FAg8y {
+    background: rgb(69, 214, 34);
+}
+
+.allowSelected-1FAg8y {
+    background: rgb(69, 214, 34);
+}
+
+/*
     USER PROFILES
 */
 
