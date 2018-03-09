@@ -256,12 +256,46 @@ Spotify Color RGB 69, 214, 34
     background-color: #131313;
 }
 
-/* UNFINISHED
+/*
+    EMOJI PICKER
+*/
+
 .emojiPicker-3g68GS {
+    background-color: #131313;
+    border: 1px solid rgba(82, 56, 233, 0.7);
+}
+
+#bda-qem {
+    background: #000000;
+    color: #ffffff;
+}
+
+.search-bar.search-bar-light {
     background-color: #131313;
 }
 
-*/
+.search-bar.search-bar-light .search-bar-inner {
+    border-radius: 10px!important;
+}
+
+.emojiPicker-3g68GS .stickyHeader-3LjM5X {
+    background: hsla(0, 0%, 0%, 0.95);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.emojiPicker-3g68GS .category-3rCtoh {
+    color: rgb(255, 0, 74);
+}
+
+.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
+    border-bottom-color: rgb(82, 56, 233);
+}
+
+.scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #3000ff;
+    border-color: transparent;
+}
 
 /*
     FRIENDS SECTION
