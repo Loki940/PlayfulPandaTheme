@@ -260,6 +260,12 @@ Spotify Color RGB 69, 214, 34
     background: #131313;
 }
 
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: rgb(255, 0, 74);
+    border-color: rgb(255, 0, 74);
+}
+
+
 
 /*
     EMOJI PICKER
