@@ -273,6 +273,14 @@ Spotify Color RGB 69, 214, 34
     border-radius: 20px;
 }
 
+.theme-dark .message-group .edit-message .edit-operation {
+    color: hsl(0, 0%, 100%);
+}
+
+.message-group .edit-message .edit-operation>a {
+    color: rgba(82, 56, 233, 1);
+}
+
 /*
     EMOJI PICKER
 */
