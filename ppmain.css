@@ -265,7 +265,9 @@ Spotify Color RGB 69, 214, 34
     border-color: rgb(255, 0, 74);
 }
 
-
+.status.status-typing .spinner-item {
+    background-color: #000000;
+}
 
 /*
     EMOJI PICKER
