@@ -198,7 +198,15 @@ Spotify Color RGB 69, 214, 34
 }
 
 .uploadModal-2KN6Mm .footer-4pOKm8 .button {
-    background-color: #131313;
+    background-color: #ffffff;
+}
+
+.button {
+    color: #000000;
+}
+
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+    color: rgb(82, 56, 233);
 }
 
 .regionSelectModal-QBpi1R .regionSelectModalHeader-33y0EU {
@@ -254,6 +262,31 @@ Spotify Color RGB 69, 214, 34
 
 .theme-dark .selectorSelected-2M0IGv {
     background-color: #131313;
+}
+
+.theme-dark.contextMenu-uoJTbz {
+    background: #131313;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: rgb(255, 0, 74);
+    border-color: rgb(255, 0, 74);
+}
+
+.status.status-typing .spinner-item {
+    background-color: #000000;
+}
+
+.guilds-wrapper .guilds .guild .avatar-small {
+    border-radius: 20px;
+}
+
+.theme-dark .message-group .edit-message .edit-operation {
+    color: hsl(0, 0%, 100%);
+}
+
+.message-group .edit-message .edit-operation>a {
+    color: rgba(82, 56, 233, 1);
 }
 
 /*
@@ -315,6 +348,11 @@ Spotify Color RGB 69, 214, 34
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
     background-color: rgb(82, 56, 233);
+    color: #fff;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+    background-color: rgb(255, 0, 74);
     color: #fff;
 }
 
@@ -552,6 +590,14 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
     border-radius: 35px;
 }
 
+.topSectionNormal-2LlRG1 {
+    background-color: #000000;
+}
+
+.item-1XYaYf.danger-1oUOCl {
+    color: rgba(255, 0, 74, 1)!important;
+}
+
 /*
     BETTERDISCORD SETTINGS
 */
@@ -565,4 +611,22 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
     background: rgb(255, 0, 74);
+}
+
+#bd-settingspane-container h2.ui-form-title {
+	color: #ffffff !important;
+}
+
+.bda-slist li {
+    background: #000000;
+    border: 0px solid #000000;
+}
+
+.bda-slist .bda-header {
+	color: #ffffff !important;
+  border-bottom: 0px solid #000000;
+}
+
+#bd-settings-sidebar .ui-tab-bar-item{
+	color: #ffffff;
 }
