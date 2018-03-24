@@ -198,7 +198,15 @@ Spotify Color RGB 69, 214, 34
 }
 
 .uploadModal-2KN6Mm .footer-4pOKm8 .button {
-    background-color: #131313;
+    background-color: #ffffff;
+}
+
+.button {
+    color: #000000;
+}
+
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+    color: rgb(82, 56, 233);
 }
 
 .regionSelectModal-QBpi1R .regionSelectModalHeader-33y0EU {
