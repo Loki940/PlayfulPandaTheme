@@ -289,6 +289,10 @@ Spotify Color RGB 69, 214, 34
     color: rgba(82, 56, 233, 1);
 }
 
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: #131313;
+}
+
 /*
     EMOJI PICKER
 */
