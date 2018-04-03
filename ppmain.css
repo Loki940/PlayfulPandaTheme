@@ -570,6 +570,10 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
     stroke-width: 2;
 }
 
+.theme-dark .itemDefault-3NDwnY, .theme-dark .itemHover-3rojsB {
+    color: #ffffff;
+}
+
 /*
     PERMISSION SETTINGS
 */
