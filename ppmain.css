@@ -299,6 +299,19 @@ Spotify Color RGB 69, 214, 34
     background: #131313;
 }
 
+.theme-dark .themed-popout {
+    background-color: #000000;
+}
+
+.theme-dark .themed-popout .header {
+    background-color: #131313;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    background-color: #131313;
+    border-color: rgb(0, 0, 0);
+}
+
 /*
     EMOJI PICKER
 */
