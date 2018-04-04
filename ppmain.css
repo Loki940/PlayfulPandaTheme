@@ -140,7 +140,13 @@ Spotify Color RGB 69, 214, 34
     color: #00ffaf;
 }
 
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: linear-gradient(90deg,#000000 70%,#131313);
     border: 2px solid linear-gradient(90deg,#000000 70%,#131313);
     border-radius: 20px;
@@ -236,8 +242,24 @@ Spotify Color RGB 69, 214, 34
     border-radius: 15px;
 }
 
-.status-dnd {
+.statusDnd-35xAXU {
     background-color: rgb(255, 0, 74);
+}
+
+.statusInvisible-2ci18Q, .statusOffline-jZXr_u {
+    background-color: #ffffff;
+}
+
+.statusIdle-2AQdvu {
+    background-color: #ffb900;
+}
+
+.statusOnline-1Mp2_H {
+    background-color: #00ffaf;
+}
+
+.status-dnd {
+    background-color: rgba(255, 0, 74, 1);
 }
 
 .status-invisible, .status-offline {
@@ -289,6 +311,23 @@ Spotify Color RGB 69, 214, 34
     color: rgba(82, 56, 233, 1);
 }
 
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: #131313;
+}
+
+.theme-dark .themed-popout {
+    background-color: #000000;
+}
+
+.theme-dark .themed-popout .header {
+    background-color: #131313;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    background-color: #131313;
+    border-color: rgb(0, 0, 0);
+}
+
 /*
     EMOJI PICKER
 */
@@ -330,6 +369,12 @@ Spotify Color RGB 69, 214, 34
     border-color: transparent;
 }
 
+.guilds-wrapper .guilds .guild.selected:before {
+    background: rgb(255, 0, 74);
+    height: 25px;
+    margin-top: -12.5px;
+}
+
 /*
     FRIENDS SECTION
 */
@@ -351,7 +396,7 @@ Spotify Color RGB 69, 214, 34
     color: #fff;
 }
 
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
     background-color: rgb(255, 0, 74);
     color: #fff;
 }
@@ -386,6 +431,48 @@ Spotify Color RGB 69, 214, 34
 
 .private-channels .channel a {
     border-radius: 10px;
+}
+
+.theme-dark .themed-popout {
+    background-color: #000000;
+}
+
+.theme-dark .themed-popout .header {
+    background-color: #000000;
+}
+
+.theme-dark .themed-popout .footer{
+    background-color: #000000;
+}
+
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+    background: #000000);
+}
+
+.theme-dark .private-channel-recipients-invite .friend {
+    background: #000000;
+}
+
+.private-channel-recipients-invite .footer button {
+    background-color: rgba(82, 56, 233, 1);
+    border-radius: 10px;
+}
+
+.popout .themed-popout {
+    border-radius: 20px;
+}
+
+.scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: #131313;
+}
+
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+.search-bar-tag {
+    background: #000000;
+    border-radius: 5px;
 }
 
 /*
@@ -453,8 +540,12 @@ Spotify Color RGB 69, 214, 34
     background-color: rgba(255, 0, 74, 1);
 }
 
-itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
-    color: rgb(255, 0, 74);
+div.itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa[style*="color: rgb(114, 137, 218);"]{
+    color: rgb(82, 56, 233) !important;
+}
+
+div.itemSelected-3XxAMf.item-3879bf.selected-eNoxEK[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"]{
+    background-color: rgb(82, 56, 233) !important;
 }
 
 .userSettingsSecurity-1hjwAn .isEnabled-3JekTu {
@@ -507,6 +598,10 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
 .theme-dark .checkbox-1QwaS4[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] polyline[stroke] {
     stroke: #ffffff;
     stroke-width: 2;
+}
+
+.theme-dark .itemDefault-3NDwnY, .theme-dark .itemHover-3rojsB {
+    color: #ffffff;
 }
 
 /*
@@ -590,12 +685,37 @@ itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa {
     border-radius: 35px;
 }
 
-.topSectionNormal-2LlRG1 {
+.theme-dark .topSectionNormal-2LlRG1 {
     background-color: #000000;
 }
 
 .item-1XYaYf.danger-1oUOCl {
     color: rgba(255, 0, 74, 1)!important;
+}
+
+.lookInverted-2lPGe7.colorBrand-3PmwCE:hover {
+    background-color: #131313;
+}
+
+.lookInverted-2lPGe7.colorBrand-3PmwCE {
+    background-color: rgba(82, 56, 233, 1);
+    color: #ffffff;
+    box-shadow: 0px 0px 3px 0px black;
+    border-radius: 8px;
+}
+
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
+    background-color: #131313;
+}
+
+.lookFilled-luDKDo.colorGreen-22At8E {
+    background-color: rgba(82, 56, 233, 1);
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #000000;
 }
 
 /*
