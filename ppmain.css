@@ -353,6 +353,12 @@ Spotify Color RGB 69, 214, 34
     border-color: transparent;
 }
 
+.guilds-wrapper .guilds .guild.selected:before {
+    background: rgb(255, 0, 74);
+    height: 25px;
+    margin-top: -12.5px;
+}
+
 /*
     FRIENDS SECTION
 */
