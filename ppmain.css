@@ -419,6 +419,10 @@ Spotify Color RGB 69, 214, 34
     background-color: #000000;
 }
 
+.theme-dark .themed-popout .footer{
+    background-color: #000000;
+}
+
 .theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
     background: #000000);
 }
