@@ -374,7 +374,7 @@ Spotify Color RGB 69, 214, 34
     color: #fff;
 }
 
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
     background-color: rgb(255, 0, 74);
     color: #fff;
 }
