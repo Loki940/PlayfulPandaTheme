@@ -56,10 +56,6 @@ Spotify Color RGB 69, 214, 34
 	background-color: #131313
 }
 
-.theme-dark .channel-members {
-	background-color: #131313
-}
-
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
 	background-color: #131313;
 	border-color: #131313;
@@ -148,7 +144,15 @@ Spotify Color RGB 69, 214, 34
 
 .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: linear-gradient(90deg,#000000 70%,#131313);
-    border: 2px solid linear-gradient(90deg,#000000 70%,#131313);
+    border: 1px solid linear-gradient(90deg,#000000 70%,#131313);
+    border-radius: 20px;
+}
+
+.theme-dark .members-1bid1J {
+    background-color: #131313;
+}
+
+.member-2FrNV0 {
     border-radius: 20px;
 }
 
