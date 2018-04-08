@@ -722,6 +722,17 @@ div.itemSelected-3XxAMf.item-3879bf.selected-eNoxEK[style*="color: rgb(255, 255,
     background-color: #000000;
 }
 
+.lookInverted-2lPGe7.colorGreen-22At8E {
+    background-color: rgba(82, 56, 233, 1);
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: 0 0 3px 0px black;
+}
+
+.lookInverted-2lPGe7.colorGreen-22At8E:hover {
+    background-color: #131313;
+}
+
 /*
     BETTERDISCORD SETTINGS
 */
