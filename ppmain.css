@@ -251,7 +251,10 @@ Spotify Color RGB 69, 214, 34
 }
 
 .statusInvisible-2ci18Q, .statusOffline-jZXr_u {
-    background-color: #ffffff;
+        -webkit-box-shadow: var(--shadow-2);
+        box-shadow: var(--shadow-2);
+        border-radius: 0;
+	border: 0;
 }
 
 .statusIdle-2AQdvu {
@@ -303,7 +306,7 @@ Spotify Color RGB 69, 214, 34
     background-color: #000000;
 }
 
-.guilds-wrapper .guilds .guild {
+.guilds-wrapper .guilds .guild .avatar-small {
     border-radius: 20px;
 }
 
@@ -753,20 +756,4 @@ div.itemSelected-3XxAMf.item-3879bf.selected-eNoxEK[style*="color: rgb(255, 255,
 
 #bd-settings-sidebar .ui-tab-bar-item{
 	color: #ffffff;
-}
-
-/* MEMBERS */
-.channel-members .member.popout-open, .channel-members .member:hover {
-    background: var(--channels-hover);
-    color: var(--color);
-}
-    /* status */
-    .channel-members .member.popout-open .status, .channel-members .member:hover .status {
-        border-color: transparent;
-        border-radius: 0
-    }
-    .channel-members .avatar-small .status {
-        border: 0;
-        box-shadow: var(--shadow);
-        border-radius: 0
 }
