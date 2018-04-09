@@ -757,13 +757,84 @@ div.itemSelected-3XxAMf.item-3879bf.selected-eNoxEK[style*="color: rgb(255, 255,
 #bd-settings-sidebar .ui-tab-bar-item{
 	color: #ffffff;
 }
-
-.channel-members .member.popout-open .status, .channel-members .member:hover .status {
+/* MEMBERS */
+.channel-members .member.popout-open, .channel-members .member:hover {
+    background: var(--channels-hover);
+    color: var(--color);
+}
+    /* status */
+    .channel-members .member.popout-open .status, .channel-members .member:hover .status {
         border-color: transparent;
         border-radius: 0
-}
-.channel-members .avatar-small .status {
+    }
+    .channel-members .avatar-small .status {
         border: 0;
         box-shadow: var(--shadow);
         border-radius: 0
+    }
+    /* USER POPUP */
+    .theme-light .userPopout-4pfA0d {
+        -webkit-box-shadow: var(--shadow-2);
+        box-shadow: var(--shadow-2);
+        border-radius: 0;
+        border: 1px solid var(--accent-color)
+    }
+    .role-3rahR_ {
+        border-radius: 0;
+        padding: 4px;
+        box-shadow: var(--shadow-2)
+    }
+    .roleCircle-3-vPZq {
+        border-radius: 0;
+    }
+    /* FOOTER */
+    .theme-light .footer-2J5zqP {
+        border-color: var(--accent-color);
+        box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.4);
+    }
+    .quickMessage-318jK- {
+        background: #FFF;
+        border: 1px solid var(--accent-color);
+        border-radius: 0;
+    }
+        /* USER PROFILE */
+        .root-2sNHUF {
+            border-radius: 0;
+            box-shadow: var(--shadow-2);
+            border: 1px solid var(--accent-color);
+        }
+        .image-EVRGPw, .status-3jUEha {
+            border-radius: 0 !important;
+            box-shadow: var(--shadow);
+        }
+        .statusInvisibleProfile-LRuFr_, .statusOfflineProfile-1wnfgz {
+            -webkit-box-shadow: var(--shadow-2);
+            box-shadow: var(--shadow-2);
+            border-radius: 0;
+            border: 0;
+        }
+        .buttonGreenFilled-6QHNrw {
+            background-color: var(--buttons-color);
+            color: #fff;
+            border-radius: 0;
+        }.buttonGreenFilled-6QHNrw:hover {background-color: var(--buttons-color-hover)}
+        .theme-light .topSectionNormal-2LlRG1 .tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
+            border-bottom-color: var(--accent-color);
+            color: var(--color);
+        }
+        .theme-light .note-2AtC_s textarea {
+            border-radius: 0
+        }
+        .theme-light .note-2AtC_s textarea:focus {
+            background: transparent;
+            border-radius: 0;
+            border: 1px solid var(--accent-color);
+        }
+        .connectedAccount-3mKaTA {
+            border: 1px solid;
+            border-radius: 0;
+            box-shadow: var(--shadow-2)
+        }
+        .connectedAccount-3mKaTA:hover {
+            background-color: var(--popups-hover)
 }
