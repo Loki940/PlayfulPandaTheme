@@ -757,3 +757,9 @@ div.itemSelected-3XxAMf.item-3879bf.selected-eNoxEK[style*="color: rgb(255, 255,
 #bd-settings-sidebar .ui-tab-bar-item{
 	color: #ffffff;
 }
+
+    .channel-members .avatar-small .status {
+        border: 0;
+        box-shadow: var(--shadow);
+        border-radius: 0
+}
