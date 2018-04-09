@@ -308,7 +308,7 @@ Spotify Color RGB 69, 214, 34
 }
 
 .theme-dark .message-group .edit-message .edit-operation {
-    color: hsl(0, 0%, 100%);
+    color: hsl(100, 100%, 100%);
 }
 
 .message-group .edit-message .edit-operation>a {
