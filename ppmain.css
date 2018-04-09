@@ -19,7 +19,7 @@ Spotify Color RGB 69, 214, 34
 */
 
 .messages.scroller{
-  background-image: url(https://raw.githubusercontent.com/Loki940/PlayfulPandaTheme/master/img/rwby%20wallpaper.png);
+  background-image: url(https://raw.githubusercontent.com/Loki940/PlayfulPandaTheme/master/img/danmachi.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -312,7 +312,7 @@ Spotify Color RGB 69, 214, 34
 }
 
 .message-group .edit-message .edit-operation>a {
-    color: rgba(82, 56, 233, 1);
+    color: rgba(233, 233, 233);
 }
 
 .guilds-wrapper .guilds .guild .guild-inner {
