@@ -838,3 +838,95 @@ div.itemSelected-3XxAMf.item-3879bf.selected-eNoxEK[style*="color: rgb(255, 255,
         .connectedAccount-3mKaTA:hover {
             background-color: var(--popups-hover)
 }
+/* FRIENDS */
+/* HEADER */
+.private-channels .search-bar {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #BABABA;
+    padding: 0 12px;
+    position: relative;
+    z-index: 1;
+}
+    /* SEARCH BAR */
+    .search-bar .search-bar-inner {
+        background: transparent;
+        border: 1px solid var(--accent-color);
+        border-radius: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2px;
+        position: relative;
+        color: #000;
+    }
+        .search-bar input {
+            color: var(--color);
+            font-family: var(--font);
+            font-size: 12px;
+            height: 26px;
+        }
+    .private-channels .channel.selected a {
+        background-color: #FFF;
+        color: var(--color);
+        border: 1px solid var(--accent-color);
+        border-radius: 0
+    }
+        .private-channels .channel.selected .channel-name {
+            opacity: 1;
+            color: var(--color);
+        }
+    .private-channels header {
+        color: var(--color);
+        opacity: .8;
+        overflow: hidden;
+        padding: 9px 20px;
+        text-overflow: ellipsis;
+        text-transform: uppercase;
+        transition: opacity .15s ease;
+        white-space: nowrap;
+        text-align: center;
+    }
+    .private-channels .channel .channel-name {
+        color: var(--color);
+        opacity: .8;
+    }
+    .private-channels .channel a {
+        border-radius: 0;
+        color: #000;
+    }
+    .private-channels .channel:hover a {
+        background-color: var(--channels-hover);
+        color: var(--color);
+    }
+    .private-channels .channel .avatar-small {
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        margin-right: 12px;
+        margin-top: 0;
+        border-radius: 0;
+        box-shadow: var(--shadow)
+    }
+    .private-channels .status {
+        border: 0;
+        border-radius: 0;
+    }
+    .private-channels .channel:hover .status {
+        border-color: transparent;
+        border-radius: 0;
+    }
+    .private-channels .channel:hover .channel-activity {
+        color: var(--color);
+    }
+    .private-channels .channel .close {
+        background: url(https://image.flaticon.com/icons/png/128/128/128397.png) 50% no-repeat;
+        background-size: 8px 8px;
+        content: " ";
+        display: none;
+        height: 8px;
+        width: 8px;
+}
